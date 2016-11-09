@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>listing-products</title>
+		<meta charset="UTF-8" />
+		<meta name="robots" content="noindex"/>
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet" />
+		<script src="https://use.typekit.net/cqu5zth.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<link rel="stylesheet" href="style.css" />
+		<meta name="robots" content="noindex" />
+	</head>
+	<body>
+		<header class="container">	
+			<h1 class="logo"><a href="index.html">HardGraft</a></h1>
+			<nav>
+				<ul class="nav">
+					<li class="nav__el" ><a href="index.html">Home</a></li>
+					<li class="nav__el nav__el--actif" ><a href="listing-products.html">Our products</a></li>
+					<li class="nav__el" ><a href="index.html">The studio</a></li>
+					<li class="nav__el nav__el--shop" ><a class="0" href="#">0</a></li>
+				</ul>
+			</nav>
+		</header>       
+		<main class=" section--main">
+
+
+			<div class="container">
+				<div class="container--headnav">
+					<ul class="headnav">
+	                    <li class="headnav__list">Bags</li>
+	                    <li class="headnav__list">50-1080€</li>
+	                    <li class="headnav__list">(30)</li>
+	               </ul>
+	               <div class="">
+	               <input class="searchbar" type="search" placeholder="Search"/>
+	               </div>
+	               <p class="sortby"><a href="#">Sort by</a></p>
+	               <!--Flèche vers le bas + menu déroulant -->
+						</div>
+          	</div>
+			<aside>
+               <div class="sidebar"> <!-- Liste nav -->
+                  <h2 class="title newtitle--small">Categories</h2>
+                  <ul class="sidenav sidenav__big">
+                        <li><a>All</a></li>
+                        <li><a class="sidenav__el--active">Bags</a>
+                              <ul class="sidenav sidenav__small">
+                                    <li><a>Folio</a></li>
+                                    <li><a>Nackpack</a></li>
+                                    <li><a>Shoulderbag</a></li>
+                                    <li><a>Gymbag</a></li>
+                                    <li><a>Travelbag</a></li>
+                              </ul>
+                        </li>
+                        <li><a>Small leather goods</a></li>
+                        <li><a>Technology</a></li>
+                        <li><a>Footwear</a></li>
+                        <li><a>Eyewear</a></li>
+                  </ul>
+                  <h2 class="title newtitle--small">Colors</h2>
+                  <ul class="sidenav sidenav__big">
+                        <li><a>All</a></li>
+                        <li><input class="sidenav__checkbox" type="checkbox" name="Blacks">Blacks</li>
+                        <li><input class="sidenav__checkbox" type="checkbox" name="Browns">Browns</li>
+                        <li><input class="sidenav__checkbox" type="checkbox" name="Greens">Greens</li>
+                        <li><input class="sidenav__checkbox" type="checkbox" name="Greys">Greys</li>
+                  </ul>
+                  <h2 class="title newtitle--small">Prices</h2>
+                  <div class="imputfromtobox">
+                    <input type="number" placeholder="From" min="1" max="9999" class="imputfromto"/>
+                    <p class="imputfromtoseparate">-</p>
+                    <input type="number" placeholder="To" min="1" max="9999" class="imputfromto"/>
+                    <p class="imputfromtoseparate">£</p>
+                  </div>
+               </div>
+          </aside>		
+			<section >
+				<div class="container">	
+					<div  class="listproduct">
+						<ul>
+							<li class="listproduct__product">
+									<a href="products.html"><img class="product__img " src="img/list/2unfold.jpg" alt="2unfold" /></a>
+									<div class=" product__info product__info--listing">
+									<h3 class="titlesans titlesans--listing"><a href="#">2unfold</a></h3>
+									<button class="btn__whishlist btn__whishlist--listing">Add to my wishlist</button>
+									<button class="btn btn__add btn__add--listing"> + £778 <span class="btn btn--span btn--span__listing">~US $890 / €810</span></button>
+								</div>
+							</li>
+
+							<li class="listproduct__product">
+									<a href="products.html"><img class="product__img " src="img/list/Ad-lib.jpg" alt="Ad-lib" /></a>
+								<div class=" product__info product__info--listing">
+										
+										<h3 class="titlesans titlesans--listing"><a href="#">Ad-lib Folio</a></h3>
+										<button class="btn__whishlist btn__whishlist--listing">Add to my wishlist</button>
+										<button class="btn btn__add btn__add--listing">+ £245 <span class="btn btn--span btn--span__listing">~US $270 / €264</span></button>
+								</div>
+							</li>
+							<li class=" listproduct__product">
+									<a href="products.html"><img class="product__img" src="img/list/Offhand.jpg" alt="Offhand" /></a>
+								<div class=" product__info product__info--listing">
+										
+										<h3 class="titlesans titlesans--listing"><a href="#">Off Hands</a></h3>
+										<button class="btn__whishlist btn__whishlist--listing">Add to my wishlist</button>
+										<button class="btn btn__add btn__add--listing"> + £955 <span class="btn btn--span btn--span__listing">~US $1,100 / €1,074</span></button>
+								</div>
+							</li>
+							<li  class=" listproduct__product">
+									<a href="products.html"><img class="product__img " src="img/list/Flatpack.jpg" alt="change alt" /></a>
+								<div class=" product__info product__info--listing">
+										
+										<h3 class="titlesans titlesans--listing"><a href="#">Flat Pack</a></h3>
+										<button class="btn__whishlist btn__whishlist--listing">Add to my wishlist</button>
+										<button class="btn btn__add btn__add--listing"> + £298 <span class="btn btn--span btn--span__listing">~US $350 / €306</span></button>
+								</div>
+							</li>
+							<li class=" listproduct__product">
+									<a href="products.html"><img class="product__img " src="img/list/Double.jpg" alt="Double" /></a>
+								<div class=" product__info product__info--listing">
+										
+										<h3 class="titlesans titlesans--listing"><a href="#">Double Bag</a></h3>
+										<button class="btn__whishlist btn__whishlist--listing">Add to my wishlist</button>
+										<button class="btn btn__add btn__add--listing"> + £998 <span class="btn btn--span btn--span__listing">~US $1,100 / €1,080</span></button>
+								</div>
+							</li>
+							<li  class="listproduct__product">
+									<a href="products.html"><img class="product__img " src="img/list/Outsider.jpg" alt="Outsider" /></a>
+								<div class=" product__info product__info--listing">
+										
+										<h3  class="titlesans titlesans--listing"><a href="#">Outsider</a></h3>
+										<button class="btn__whishlist btn__whishlist--listing">Add to my wishlist</button>
+										<button class="btn btn__add btn__add--listing">+ £598 <span class="btn btn--span btn--span__listing">~US $550 / €682</span></button>
+								</div>
+							</li>
+							<li  class="listproduct__product">
+									<a href="products.html"><img class="product__img " src="img/list/Wristpack.jpg" alt="WristpackBlue" /></a>
+								<div class=" product__info product__info--listing">
+										
+										<h3 class="titlesans titlesans--listing"><a href="#">Wristpack</a></h3>
+										<button class="btn__whishlist btn__whishlist--listing">Add to my wishlist</button>
+										<button class="btn btn__add btn__add--listing">+ £166 <span class="btn btn--span btn--span__listing">~US $200 / €234</span></button>
+								</div>
+							</li>
+							<li  class="listproduct__product">
+									<a href="products.html"><img class="product__img " src="img/list/Overnight.jpg" alt="Overnight Bag" /></a>
+								<div class=" product__info product__info--listing">
+										
+										<h3  class="titlesans titlesans--listing"><a href="#">Overnight</a></h3>
+										<button class="btn__whishlist btn__whishlist--listing">Add to my wishlist</button>
+										<button class="btn btn__add btn__add--listing"> + £778 <span class="btn btn--span btn--span__listing">~US $800 / €810</span></button>
+								</div>
+							</li>
+							<li class="listproduct__product">
+									<a href="products.html"><img class="product__img " src="img/list/Holdall.jpg" alt="Holdall" /></a>
+								<div class=" product__info product__info--listing">
+										
+										<h3  class="titlesans titlesans--listing"><a href="#"> Holdall</a></h3>
+										<button class="btn__whishlist btn__whishlist--listing">Add to my wishlist</button>
+										<button class="btn btn__add btn__add--listing">+ £780 <span class="btn btn--span btn--span__listing">~US $830 / €810</span></button>
+								</div>
+							</li>
+							<li class="listproduct__product">
+									<a href="products.html"><img class="product__img " src="img/list/WeekendCoal.jpg" alt="WeekendCoal" /></a>
+								<div class=" product__info product__info--listing">
+										
+										<h3 class="titlesans titlesans--listing"><a href="#">Weekend</a></h3>
+										<button class="btn__whishlist btn__whishlist--listing">Add to my wishlist</button>
+										<button class="btn btn__add btn__add--listing"> + £968 <span class="btn btn--span btn--span__listing">~US $830 / €1,074</span></button>
+								</div>
+							</li>
+							<li class="listproduct__product">
+									<a href="products.html"><img class="product__img " src="img/list/Backpack2.jpg" alt="BackpackChair" /></a>
+								<div class=" product__info product__info--listing">
+										
+										<h3  class="titlesans titlesans--listing"><a href="#">Backpack</a></h3>
+										<button class="btn__whishlist btn__whishlist--listing">Add to my wishlist</button>
+										<button class="btn btn__add btn__add--listing">+ £968 <span class="btn btn--span btn--span__listing">~US $830 / €1,074</span></button>
+								</div>
+							</li>
+							<li class=" listproduct__product">
+									<a href="products.html"><img class="product__img " src="img/list/Backpack.jpg" alt="BackpackGreen" /></a>
+								<div class=" product__info product__info--listing">
+										<h3  class="titlesans titlesans--listing"><a href="#">Backpack</a></h3>
+										<button class="btn__whishlist btn__whishlist--listing">Add to my wishlist</button>
+										<button class="btn btn__add btn__add--listing">+ £780 <span class="btn btn--span btn--span__listing">~US $830 / €810</span></button>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>	
+			</section>
+
+
+			<div class="link--arrow__list"> 
+				<a class="link link--more__list" href="#">More product</a>
+			</div>	
+		</main>
+
+		<footer class="section--footer">
+			<div class="container">
+				<div class="col">
+					<h2 class="titlesans titlesans--up col__footer--title">Navigation</h2>
+					<ul class="nav col3">
+						<li class="footer__el"><a href="index.html">Home</a></li>
+						<li class="footer__el"><a href="index.html">Our products</a></li>
+						<li class="footer__el"><a href="index.html">The studio</a></li>
+						<li class="footer__el"><a href="index.html">#hardgraft</a></li>
+						<li class="footer__el"><a href="index.html">FAQ</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2 class="titlesans titlesans--up col__footer--title">Newsletter</h2>
+					<form method="post" action="#">
+						<label for="email"></label>
+						<input type="text" id="email" placeholder="yourmail@mail.com" />
+						<input type="submit" id="send" value="Envoyer" />
+					</form>
+				</div>
+			
+				<div class="col">
+					<h2 class="titlesans titlesans--up col__footer--title contact">Contact</h2>
+					<address>
+						<ul class="footer__el">
+							<li><a href="#">Avenue Comte de Smet de Nayer 20 5000 Namur</a></li>
+							<li><a href="mailto:support@hardgraft.com">support@hardgraft.com</a></li>
+						</ul>
+					</address>
+				</div>
+			</div><!-- end container -->
+		
+			<div class="credit">
+				<div class="container">
+					<small ><a class="credit__link" href="http://wemakegood.design" target="_blank"> &copy; WMGD</a><span class="credit__year"> 2016</span></small>
+					<small class="fr"><a  class="credit__link dwm" href="http://dwm.re" target="_blank">For DWM</a></small>
+				</div><!-- end container -->
+			</div>
+		</footer>
+	</body>
+</html>
